@@ -3,7 +3,7 @@ const employees = [{name: "Gandalf", role: "Wizzard"},{name: "Aragorn", role: "R
 
 describe("getEmployerRole", () => {
   test("returns the employee's role in the company", () => {
-    expect(getEmployerRole("Gadalf", employees)).toEqual("Wizzard");
+    expect(getEmployerRole("Gandalf", employees)).toEqual("Wizzard");
     expect(getEmployerRole("Aragorn", employees)).toEqual("Ranger of the North")
     expect(getEmployerRole("Sauron", employees)).toEqual("The Dark Lord of Mordor"); 
     expect(getEmployerRole("Gimli", employees)).toEqual("Dwarf Warrior"); 
